@@ -4,7 +4,7 @@
 
 
 let fs = require('fs')
-global.owner = ['6285759662798','6285759662798'] // Letakan nomor kamu disini
+global.owner = ['6285759662798','6287832147584'] // Letakan nomor kamu disini
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
@@ -28,7 +28,7 @@ global.APIKeys = { // APIKey nya disini
   'https://server-api-rey.herokuapp.com': 'apirey',
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
-  'https://pencarikode.xyz': 'pais',
+  'https://pencarikode.xyz': 'APIKEY',
   'https://api.xteam.xyz': 'HIRO',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'nyyxz-bot',
