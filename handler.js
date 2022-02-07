@@ -57,7 +57,7 @@ module.exports = {
         } else global.db.data.users[m.sender] = {
           exp: 0,
           limit: 10,
-          registered: false,
+          registered: true,
           lastclaim: 0, 
           name: this.getName(m.sender),
           age: -1,
@@ -101,22 +101,22 @@ module.exports = {
           if (!('nsfw' in chat)) chat.nsfw = false
         } else global.db.data.chats[m.chat] = {
           isBanned: false,
-          welcome: true,
+          welcome: false,
           detect: true,
           sWelcome: '',
           sBye: '',
           sPromote: '',
           sDemote: '',
-          antiLink: true,
+          antiLink: false,
           autoread: false,
           broadcast: true,
-          delete: true,
-          desc: true,
+          delete: false,
+          desc: false,
           getmsg: false,
           expired: 0,
           stiker: false,
           viewonce: true,
-          nsfw: true,
+          nsfw: false,
           badword: false,
         }
 
@@ -142,7 +142,7 @@ module.exports = {
           antispam: true,
           antitroli: true,
           group: false,
-          jadibot: false,
+          jadibot: true,
           private: false,
           restrict: false,
           self: false,
@@ -485,7 +485,7 @@ global.dfail = (type, m, conn) => {
     private: 'This command only can used in Private Chat.\nPerintah ini hanya dapat digunakan di Chat Pribadi.',
     admin: 'This command only can used by *Group Admin.*\nPerintah ini hanya dapat digunakan oleh *Admin Group.*',
     botAdmin: 'Make the bot number as a group admin to use this command.\nJadikan bot sebagai admin untuk menggunakan perintah ini.',
-    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar R-Txzy.19*',
+    unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Laras.19*',
     nsfw: 'NSFW doesnt active.\nNSFW tidak aktif.'
   }[type]
   if (msg) return m.reply(msg)
