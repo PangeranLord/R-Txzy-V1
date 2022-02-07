@@ -107,17 +107,17 @@ module.exports = {
           sBye: '',
           sPromote: '',
           sDemote: '',
-          antiLink: false,
+          antiLink: true,
           autoread: false,
           broadcast: true,
-          delete: false,
-          desc: false,
+          delete: true,
+          desc: true,
           getmsg: false,
           expired: 0,
           stiker: false,
           viewonce: true,
-          nsfw: false,
-          badword: false,
+          nsfw: true,
+          badword: true,
         }
 
         let settings = global.db.data.settings[this.user.jid]
