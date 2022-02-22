@@ -4,7 +4,7 @@
 
 
 let fs = require('fs')
-global.owner = ['6285759662798','6287832147584','6285759662798','6287832147584'] // Letakan nomor kamu disini
+global.owner = ['6287832147584','6287832147584','6287832147584','6287832147584'] // Letakan nomor kamu disini
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
@@ -29,11 +29,11 @@ global.APIKeys = { // APIKey nya disini
   'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
   'https://pencarikode.xyz': 'pais',
-  'https://api.xteam.xyz': 'HIRO',
+  'https://api.xteam.xyz': 'Pangeran',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'nyyxz-bot',
-  'https://api.lolhuman.xyz': 'ed6c4f2c72b6f92f7d201464',
-  'https://api.vhtear.com': 'sayahafiz',
+  'https://api.lolhuman.xyz': '7fc314b6414b6ed2fc5c3058',
+  'https://api.vhtear.com': 'NOT-PREMIUM',
   'https://fxc7-api.herokuapp.com': 'uN8rsK4g',
   'https://api.justaqul.xyz': '5kbUqdG00OXelFYx',
   'http://zekais-api.herokuapp.com': 'grqgD6pU',
@@ -47,7 +47,7 @@ global.author = 'ItsMeLaras'
 global.wait = '「 ⏱️ 」Harap tunggu sayang...'
 global.eror = '「❗」Server ERROR Ngentod!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '©ItsMeLaras×Pangeran' //change the watermark 
+global.watermark = '©Pangeran' //change the watermark 
 global.image = 'https://telegra.ph/file/1a3eac3701775793618b3.jpg' //change the image
 global.thumbfoto = 'https://telegra.ph/file/0bdd84bd5a8099a789828.jpg'
 
